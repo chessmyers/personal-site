@@ -1,0 +1,73 @@
+.navBar {
+    height: 40%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 30%;
+    left: 0;
+    overflow-x: hidden;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow:3px 0 10px #92abff;
+    animation: 1s example forwards;
+}
+
+@keyframes example {
+    from {margin-left: -120px}
+    to {margin-left: 0}
+}
+
+a {
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+
+.navButton {
+    width: 100%;
+    height: 33.3333333%;
+    font-size: 200%;
+    background-color: #4165e6;
+    opacity: 0.75;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fdfff8;
+}
+
+.navButton:hover {
+    opacity: 1;
+    font-size: 210%;
+}
+
+.navButton:active {
+    font-size: 170%;
+    color: #560f80;
+}
+
+@media screen and (max-width: 800px) {
+    .navBar {
+        bottom: 0;
+        top: initial;
+        width: 100px;
+        height: 30%;
+        border-bottom-right-radius: 0;
+    }
+    .navButton {
+        opacity: 0.4;
+        font-size: 120%;
+    }
+    .navButton:hover {
+        font-size: 140%;
+    }
+
+    .navButton:active {
+        font-size: 120%;
+        color: #560f80;
+    }
+}
+
+
+
