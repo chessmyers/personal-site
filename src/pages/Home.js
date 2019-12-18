@@ -36,8 +36,6 @@ class Home extends Component {
                                                 This is the personal webpage of Christopher Myers, Northeastern
                                                 University class of 2023.<br/>
                                                 Here I talk about some of my personal projects and interests! <br/>
-                                                <code>This site was also created with React, one of my current
-                                                    interests!</code>
                                             </h6>
                                             <div style={{
                                                 textAlign: 'center'
